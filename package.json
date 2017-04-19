@@ -1,0 +1,26 @@
+{
+  "name": "hapi-demo",
+  "version": "1.0.0",
+  "description": "use for learn hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsz65/hapi-demo.git"
+  },
+  "keywords": [
+    "hapi",
+    "node"
+  ],
+  "author": "shuzhi Fang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsz65/hapi-demo/issues"
+  },
+  "homepage": "https://github.com/fsz65/hapi-demo#readme",
+  "dependencies": {
+    "hapi": "^16.1.1"
+  }
+}
