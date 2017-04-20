@@ -8,3 +8,5 @@ learn hapi
 cd hapi-demo
 npm ./demo1/server.js
 ```
+<br>
+参考内容：
