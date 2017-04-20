@@ -4,7 +4,8 @@
   "description": "use for learn hapi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auth-test":"node ./authentication/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/fsz65/hapi-demo#readme",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "hapi": "^16.1.1",
+    "hapi-auth-basic": "^4.2.0",
     "inert": "^4.2.0"
   }
 }
