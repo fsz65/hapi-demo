@@ -20,7 +20,7 @@ server.route({
     path:'/{name}',
     handler:function (request,reply) {
         //reply('Hello, ' + encodeURIComponent(request.params.name) + '!');
-        return reply.redirect("https://sso.xxx.com/ids/login?service=http://eyedev.cnsuning.com:5601/app/kibana");
+        return reply.redirect("https://sso.xxx.com/ids/login?service=http://eyedev.xxx.com:5601/app/kibana");
     }
 });
 
