@@ -8,9 +8,9 @@ const postData = querystring.stringify({
 });
 
 const options = {
-    hostname: 'minos2.cnsuning.com',
+    hostname: 'www.baidu.com',
     port: 80,
-    path: '/minos2-admin/event/getAppcodes.htm',
+    path: '/',
     method: 'GET',
     /*headers: {
         'Content-Type': 'application/x-www-form-urlencoded',

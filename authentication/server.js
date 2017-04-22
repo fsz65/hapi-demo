@@ -37,6 +37,7 @@ server.register(Basic,(err)=>{
         config:{
             auth:'simple',
             handler:function (request,reply) {
+                console.log(request.headers); //获取浏览器request的headers，其中包含cookie
                 reply('hello,'+request.auth.credentials.name);
             }
         }
