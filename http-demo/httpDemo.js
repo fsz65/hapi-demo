@@ -39,5 +39,5 @@ req.on('error', (e) => {
 });
 
 // write data to request body
-req.write(postData);
+//req.write(postData);
 req.end();
