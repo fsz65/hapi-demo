@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "auth-test":"node ./authentication/server.js"
+    "auth-test": "node ./authentication/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/fsz65/hapi-demo#readme",
   "dependencies": {
+    "async": "^2.3.0",
+    "bcrypt": "^1.0.2",
     "express": "^4.13.4",
     "express-http-proxy": "^0.10.1",
-    "bcrypt": "^1.0.2",
     "hapi": "^16.1.1",
     "hapi-auth-basic": "^4.2.0",
-    "inert": "^4.2.0"
+    "inert": "^4.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   }
 }
