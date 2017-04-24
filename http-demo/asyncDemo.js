@@ -6,9 +6,9 @@ var async = require('async');
 var bodyString = '';
 function userInfo(callback) {
     const options = {
-        hostname: 'minos2.cnsuning.com',
+        hostname: 'mino2.xxx.com',
         port: 80,
-        path: '/minos2-admin/event/getAppcodes.htm',
+        path: '/mino2-admin/event/getAppcodes.htm',
         method: 'GET',
         /*headers: {
          'Content-Type': 'application/x-www-form-urlencoded',
