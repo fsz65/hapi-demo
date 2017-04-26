@@ -1,0 +1,8 @@
+/**
+ * Created by 15061857 on 2017/4/25.
+ */
+require('babel-core/register');
+//var TestAsync = require('./testAsync');
+var User = require('./user');
+//const t =  TestAsync.test();
+User.userInfo('minos2.cnsuning.com','/minos2-admin/event/getAppcodes.htm',"idsLoginUserIdLastTime=15061857; LtpaToken2=MF0Zvk3bW7YfiZyZ0V9vJnYNmxSgiKGsHiNuwS8Ve/oW+sIwUycM6sFqvtim35XsMkWe7Ky3/XltEneK8o4rv05PT2Bdo50fXnS9z3TXle6z+iqFC3zGIowogjQ9Yw3vvqYVL6k3Ouk46TiREqlq+FvggtJQTBScKeT9/B70yNE5lV+idr2KKtBwlbETFeqeZ+1PzdmjJSN9Tx/5P60CeYRZUfezWQGMwlC4AoYKzhnajTjI5ytLiRLwbL7sK1k+W8cVK/ixhJqq5mArheSkVsCm1twN9/O33rmA6LUVquGfouQtktZXpCbLJtXcCFGYSXtjdJNRINZYSHd1H3Vrlsj+z0DPg+yOxMQJhLqdxy7nd7zziU9deWCeMNM0dphNXvEdXg8ySUk05LXBbbj/On9gwKQKwuuD92wiBoSY7izBPgxdRehmO2B4IFbE7pgnEWN7e8SyffCvh9Y2K+VVLFH1bai88OnLDS4QHVBtTJcwACzVadb4HRHXj7FVGpVvx7jT5abBl8V7A2QCuPWrxUw/yK+rNu6M2KKkP0D/kDX7saxucYs2Sbm7429IDfzGZMKE93hrVhm+GsZbh4A4sGsDixaCRM35/863vOUQMFSg6yT7nB1Q33RZUIjYgYKowT8BcEGBjOn1wLA0DhJlu8jRIKifdM7LlfkhD1P80Hs=; LtpaToken=im+8VZgmf2LVuDmijoOvHKp9yP9cYVe6ZvECECtC3rz/mSw+LnipB98pEHBcWMp6/DlJ3eyfhZSK1Bk8sSBZaBFk/kD4Ri57ZEuRlYtxvZMENZtGbbVU7ZUfi7dRAemy4mGnw8dzFfrsoxEFNm3PZ06hW/YMOU3SXOBUzyYE5xxAjQMwfL3tjN3WPW9qGQ+vcQkJVy+FmS4c2K5LxrnpjtiBq/VXneK4/1D5UIco6dyBVc8qDKreYV94l6MW4duHnJBJ+3vFvhcoR/phPHAWK2JKv8UMazJlnZuEwq8HmgRDGF/Coz7R8SvIsD/Sw58mWkdGA2n3hCT7CRc5WL93lw==; rdasPrd=si4086D7F214F3BD70BD7FF9889DFE4465; minos2prd=si4086D7F214F3BD70BD7FF9889DFE4465");
