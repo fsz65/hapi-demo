@@ -5,13 +5,35 @@
 const Hapi = require('hapi');
 const server = new Hapi.Server();
 server.connection({port:3000,host:'localhost'});
-
+server.state('session',{
+    ttl: null,
+    isSecure: false,
+    isHttpOnly: false,
+    isSameSite:false,
+    encoding: 'base64json',
+    clearInvalid: false, // remove invalid cookies
+    strictHeader: false // don't allow violations of RFC 6265
+});
 // 关于hapi的路由
 server.route({
     method:'GET',
+    config: {
+        state: {
+            parse: true, // parse and store in request.state
+            failAction: 'error' // may also be 'ignore' or 'log'
+        }
+    },
     path:'/',
     handler:function (request,reply) {
-        reply('Hello, world');
+        let session = request.state.session;
+        console.log(session);
+        if (!session){
+            session = {userName:"15061857"};
+        }else {
+            console.log(session)
+        }
+        console.log("fsztest");
+        reply('Hello, world').state('session',session);
     }
 });
 
